@@ -31,6 +31,19 @@ The aim is to demonstrate advanced NLP techniques and the application of Python 
 - **Matplotlib & Seaborn:** For visualisation of the models’ performance.
 - **Regular Expressions:** Essential for text data preprocessing.
 
+## Evaluation Metrics
+
+The following table summarizes the performance of the sentiment analysis model across three different datasets using the enhanced rule-based approach.
+
+| Data              | Accuracy (%) | Precision (Positive) (%) | Recall (Positive) (%) | Precision (Negative) (%) | Recall (Negative) (%) | F1 Score (Positive) (%) | F1 Score (Negative) (%) |
+|-------------------|--------------|--------------------------|-----------------------|--------------------------|-----------------------|-------------------------|-------------------------|
+| Film training data| 65.30        | 57.13                    | 73.50                 | 73.50                    | 73.50                 | 57.12                    | 77.50                    |
+| Film testing data | 63.42        | 53.45                    | 53.45                 | 72.97                    | 72.97                 | 53.45                    | 72.97                    |
+| Nokia data        | 79.32        | 80.11                    | 80.11                 | 77.50                    | 77.50                 | 80.11                    | 77.50                    |
+
+Table 5.1: Accuracy metrics output after the `testDictionary()` command was used on three separate datasets.
+
+
 ## Conclusion & Key Takeaways
 This analysis highlights the strengths and limitations of both probabilistic and rule-based approaches in sentiment analysis. The project shows how different methodologies can be tailored to enhance model performance, especially in handling linguistic subtleties such as negations ("not great") which are crucial for accurate sentiment analysis. This comparison not only deepens the understanding of NLP applications but also showcases potential enhancements for more robust sentiment analysis models.
 
